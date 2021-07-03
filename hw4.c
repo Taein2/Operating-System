@@ -15,6 +15,7 @@ clean :
 #define BUFFER_SIZE 10              // buffer size
 #define RAND_DIVISOR 100000000      // Rand divisor value
 typedef int buffer_item;
+
 /* the semaphores */
 sem_t empty;
 sem_t full;
